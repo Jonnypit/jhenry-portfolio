@@ -1,4 +1,4 @@
-import aboutBg from '../assets/aboutbg.jpg';
+import aboutBg from '/src/assets/aboutbg.jpg';
 import profileImg from '../assets/jhenry-profile.png';
 
 function About() {
