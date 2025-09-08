@@ -1,9 +1,12 @@
+import aboutBg from '../assets/about-bg.jpg';
+import profileImg from '../assets/jhenry-profile.png';
+
 function About() {
   return (
     <main className="w-screen text-white min-h-screen bg-[#0b1220]">
       <section
         className="w-full min-h-screen bg-cover bg-center bg-no-repeat bg-scroll md:bg-fixed pt-0"
-        style={{ backgroundImage: "url('/assets/about-bg.jpg')" }}
+        style={{ backgroundImage: `url(${aboutBg})` }}
         aria-label="About Jonathon Henry"
       >
         <div className="max-w-[1500px] mx-auto px-6 md:px-16 py-12">
@@ -39,7 +42,7 @@ function About() {
             {/* Right: Image */}
             <figure className="w-[150px] md:w-[300px] flex-shrink-0 p-1 mx-auto md:mx-0 rounded-xl ring-1 ring-white/10 bg-black/20">
               <img
-                src="/assets/jhenry-profile.png"
+                src={profileImg}
                 alt="Portrait of Jonathon Henry, mobile app developer"
                 className="w-full h-auto object-cover rounded-lg"
                 loading="eager"
