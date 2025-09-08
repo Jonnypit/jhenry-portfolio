@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section
       className="w-full min-h-screen bg-black bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/hero-bg.jpg')" }}
+      style={{ backgroundImage: "url('src/assets/hero-bg.jpg')" }}
     >
       <div className="flex flex-col justify-center items-center text-center text-white h-full px-6 py-32">
         <h1 className="text-4xl md:text-6xl font-extrabold text-[#3DDC84]">
