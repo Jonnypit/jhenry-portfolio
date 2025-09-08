@@ -12,8 +12,9 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  // Personal site at USERNAME.github.io
-  base: "/",
+  // For GitHub Pages at https://jonnypit.github.io/jhenry-portfolio/
+  // If/when you switch to a custom domain (symbioticcity.tech), set base to "/".
+  base: "/jhenry-portfolio/",
   plugins: [react()],
-  build: { outDir: "docs" }  // <-- Pages will use this folder
+  build: { outDir: "docs" }  // Pages: Settings → Source: main /docs
 });
