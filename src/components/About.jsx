@@ -1,5 +1,5 @@
-import aboutBg from '/assets/about-bg.jpg';
-import profileImg from '/assets/jhenry-profile.png';
+import aboutBg from '../assets/aboutbg.jpg';
+import profileImg from '../assets/jhenry-profile.png';
 
 function About() {
   return (
