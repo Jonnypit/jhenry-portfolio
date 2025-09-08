@@ -46,7 +46,7 @@ function Header() {
             <div className="relative spinY-wrap">
               {/* Ghost trail (layer 1) */}
               <img
-                src="/assets/aira_icon.png"
+                src="/src/assets/aira_icon.png"
                 alt=""
                 aria-hidden="true"
                 className="absolute inset-0 h-[88px] md:h-[120px] w-auto opacity-40 blur-[3px] spinY"
